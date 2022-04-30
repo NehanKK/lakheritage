@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    {
+      "tag": "anuradhapura-places",
+      "patterns": ["what are the places i can visit in anuradhapura?", "what are the places I can see in Anuradhapura?", "what are the locations I can see in Anuradhapura", "Why am i going to anuradhapuraya?","What are the tourist places in anuradhapura?"],
+      "responses": ["You can see Ruwanweliseya, Thuparamaya, Isurumuniya and many other historical places in Anuradhapura"]
+    },
+    
+     {
+      "tag": "create-sigiriya",
+      "patterns": ["who made sigiriya?", "who created sigiriya?", "who built sigiriya?","who built lion rock?"],
+      "responses": ["Sigiriya was built by King Kashyapa"]
+    },
+     {
+      "tag": "see-sigiriya",
+      "patterns": ["what can i see in sigiriya?", "why am i go to sigiriya?", "what are the beautiful places in sigiriya?","why am i go to lion rock?"],
+      "responses": ["You can see ancient ponds and wall art in the Sigiriya"]
+    },
+      {
+      "tag": "important-sigiriya",
+      "patterns": ["what is the important of the sigiriya?", "tell me about sigiriya?", "why people like sigiriya?","why is the important of the sigiriya for us?", "tell me about lion rock?","what is sigiriya?","what is the special of the sigiriya?"],
+      "responses": ["Sigiriya is one of the most valuable historical monuments of Sri Lanka. Referred by locals as the Eighth Wonder of the World this ancient palace and fortress complex has significant archaeological importance and attracts thousands of tourists every year. It is probably the most visited tourist destination of Sri Lanka."]
+    },
+      {
+      "tag": "when-sigiriya",
+      "patterns": ["when create sigiriya?", "when built sigiriya?", "which year made sigiriya"],
+      "responses": ["Since the 3th century BC Sigiriya was used as a monastery and after eight centuries it was turned into a royal palace"]
+    },
+      {
+      "tag": "old-sigiriya",
+      "patterns": ["how old sigiriya?", "how many years sigiriya?"],
+      "responses": ["Archeological excavations have proven that Sigiriya and its surrounding territories were inhabited for more than 4000 years."]
+    },
+     {
+      "tag": "crowd-sigiriya",
+      "patterns": ["how many peoples comes to the sigiriya in the one day?", "how many crowd visit to the sigiriya in a day?"],
+      "responses": ["Around 2000 people come to visit Sigiriya daily."]
+    },
+     {
+      "tag": "ticket-sigiriya",
+      "patterns": ["what is the ticket price of sigiriya", "entrance fee of sigiriya?"],
+      "responses": ["You should by a ticket which price of US$30 or 4620 LKR for tourists, or 50 LKR for Sri Lankan citizens."]
+    },
+      {
+      "tag": "heritage-sigiriya",
+      "patterns": ["is sigiriya world heritage?", "when sigiriya become the heritage?"],
+      "responses": ["Sigiriya  is a UNESCO listed World Heritage Site since 1982."]
+    },
+     {
+      "tag": "station-sigiriya",
+      "patterns": ["what is the nearest railway station to the sigiriya"," what is the closest station to the sigiriya", "how long so far to closest railway station from sigiriya?","where is sigiriya"],
+      "responses": ["Habarna is the closest railway station to Sigiriya. It's 15km away from Sigiriya."]
+    },
+     {
+      "tag": "heigh-sigiriya",
+      "patterns": ["what is the height of sigiriya", "what is the peak of sigiriya?","elevation of sigiriya?","elevation of sigiriya"],
+      "responses": ["1,144 feet (349 metres) above sea level and is some 600 feet (180 metres) above the surrounding plain."]
+    },
+      {
+      "tag": "why-sigiriya",
+      "patterns": ["why create sigiriya", "what is reason for make sigiriya?","what is the main purpose of sigiriya","why built sigiriya"],
+      "responses": ["1In India he raised an army with the intention of returning and retaking the throne of Sri Lanka, which he considered to be rightfully his. Expecting the inevitable return of Moggallana, Kashyapa is said to have built his palace on the summit of Sigiriya as a fortress as well as a pleasure palace."]
+    },
+     {
+      "tag": "create-ruwanweliseya",
+      "patterns": ["who made ruwanweliseya?", "who created ruwanweliseya?","who built ruwanweliseya?" ,"who built ruwanweliseya?"],
+      "responses": ["Ruwanweliseya was built by King Dutugemunu"]
+    },
+    {
+      "tag": "important-ruwanweliseya",
+      "patterns": ["what is the important of the ruwanweliseya?","why am i go to ruwanweliseya?", "tell me about ruwanweliseya?", "why people like ruwanweliseya?","why is the important of the ruwanweliseya for us?","what is the special of the ruwanweliseya?"],
+      "responses": ["The Ruwanwelisaya is a stupa and a hemispherical structure containing relics, in Sri Lanka, considered sacred to many Buddhists all over the world. Two quarts or one Drona of the Gothama Buddha's relics are enshrined which is the largest collection of his relics anywhere.therefore, you should visit and see it"]
+    },
+      {
+      "tag": "when-ruwanweliseya",
+      "patterns": ["when create ruwanweliseya?", "when built ruwanweliseya?", "which year made ruwanweliseya"],
+      "responses": ["2nd century BCE"]
+    },
+     {
+      "tag": "heigh-ruwanweliseya",
+      "patterns": ["what is the height of ruwanweliseya", "what is the peak of ruwanweliseya?","elevation of ruwanweliseya?"],
+      "responses": ["Its present height is about 150 feet"]
+    },
+      {
+      "tag": "area-ruwanweliseya",
+      "patterns": ["what is the area of ruwanweliseya", "what is the diameter of ruwanweliseya?","width of ruwanweliseya?", "what is the diameter of ruwanweliseya?"],
+      "responses": ["379 feet"]
+    },
+     {
+      "tag": "station-ruwanweliseya",
+      "patterns": ["what is the nearest railway station to the ruwanweliseya"," what is the closest station to the ruwanweliseya", "how long so far to closest railway station from ruwanweliseya?","where is ruwanweliseya"],
+      "responses": ["4 Km - Distance from Anuradhapura Railway Station to ruwanweliseya"]
+    },
+      {
+      "tag": "brought-srimahabodi",
+      "patterns": ["who brought sri maha bodhi"," who give sri maha bodi","who give us srimahabodi"],
+      "responses": ["4 Km - Distance from Anuradhapura Railway Station to ruwanweliseya"]
+    },
+      {
+      "tag": "important-srimahabodi",
+      "patterns": ["what is the important of the sri maha bodhi?","why am i go to sri maha bodi?", "tell me about srimahabodi?", "why people like srimahabodi?","why is the important of the srimahabodhi for us?","what is the special of the srimahabodi?"],
+      "responses": ["Jaya Sri Maha Bodhi  is a sacred bo tree in the Mahamewna Gardens, Anuradhapura, Sri Lanka. It is the southern branch from the historical Sri Maha Bodhi at Buddha Gaya in India under which Buddha attained Enlightenment"]
+    },
+     {
+      "tag": "when-srimahabodi",
+      "patterns": ["when create srimahabodi?", "when built sri maha bodhi?", "which year made srimahabodhi"],
+      "responses": ["It was planted in 288 BC"]
+    },
+      {
+      "tag": "where-srimahabodi",
+      "patterns": ["where is srimahabodi?", "what is the location of sri maha bodhi?", "where situated srimahabodhi"],
+      "responses": ["In Mahamewna Gardens, Anuradhapura, Sri Lanka"]
+    },
+     {
+      "tag": "station-srimahabodi",
+      "patterns": ["what is the nearest railway station to the sri maha bodhi"," what is the closest station to the srimahabodhi", "how long so far to closest railway station from srimahabodi?","where is srimahabodhi"],
+      "responses": ["4 Km - Distance from Anuradhapura Railway Station to sri maha bodhi"]
+    },
+      {
+      "tag": "create-Isurumuniya",
+      "patterns": ["who made isurumuniya?", "who created isurumuniya?", "who built isurumuniya?"],
+      "responses": ["The temple was built by King Devanampiya Tissa"]
+    },
+     {
+      "tag": "see-Isurumuniya",
+      "patterns": ["what can i see in isurumuniya?", "why am i go to isurumuniya?", "what are the beautiful places in isurumuniya?","why am i go to isurumuniya?"],
+      "responses": ["You can see Isurumuni Lovers,Royal Family Carving and Elephant Pond Carving in Isurumuniya"]
+    },
+     {
+      "tag": "important-Isurumuniya",
+      "patterns": ["what is the important of the isurumuniya?", "tell me about isurumuniya?", "why people like Isurumuniya?","why is the important of the Isurumuniya for us?","what is Isurumuniya?","what is the special of the Isurumuniya?"],
+      "responses": ["Isurumuniya is a Buddhist temple situated near to the Tissa Wewa (Tisa tank) in Anuradhapura, Sri Lanka. There are four carvings of special interest in this Vihara. They are the Isurumuniya Lovers, Elephant Pond and The Royal Family."]
+    },
+    {
+      "tag": "when-Isurumuniya",
+      "patterns": ["when create Isurumuniya?", "when built isurumuniya?", "which year made isurumuniya"],
+      "responses": ["Between 307 BC - 267 BC"]
+    },
+      {
+      "tag": "where-Isurumuniya",
+      "patterns": ["where is Isurumuniya?", "what is the location of Isurumuniya?", "where situated Isurumuniya"],
+      "responses": ["situated near to the Tissa Wewa (Tisa tank) in Anuradhapura, Sri Lanka"]
+    },
+     {
+      "tag": "station-Isurumuniya",
+      "patterns": ["what is the nearest railway station to the Isurumuniya"," what is the closest station to the Isurumuniya", "how long so far to closest railway station from Isurumuniya?"],
+      "responses": ["3 Km - Distance from Anuradhapura Railway Station to Isurumuniya"]
+    },
+    {
+      "tag": "create-kuttampokuna",
+      "patterns": ["who made kuttampokuna?", "who created Twin ponds?", "who built kuttampokuna?","who built kuttampokuna"],
+      "responses": ["Kuttampokuna was  built by the Sinhalese in the ancient kingdom of Anuradhapura."]
+    },
+     {
+      "tag": "important-kuttampokuna",
+      "patterns": ["what is the important of the kuttampokuna?", "tell me about Twin ponds?", "why people like kuttampokuna?","why is the important of the kuttampokuna for us?", "tell me about kuttampokuna?","what is kuttampokuna?","what is the special of the kuttampokuna?"],
+      "responses": ["One of the best specimen of bathing tanks or pools in ancient Sri Lanka is the pair of pools known as Kuttam Pokuna (Twin Ponds/Pools). The said pair of pools were built by the Sinhalese in the ancient kingdom of Anuradhapura. These are considered one of the significant achievements in the field of hydrological engineering and outstanding architectural and artistic creations of the ancient Sinhalese."]
+    },
+     {
+      "tag": "area-kuttampokuna",
+      "patterns": ["what is the area of kuttampokuna", "what is the diameter of kuttampokuna?","width of Twin ponds?", "what is the diameter of kuttampokuna?"],
+      "responses": ["A garden was landscaped which separates the two ponds which long is 18½ ft. The larger pool of the two is 132 ft by 51 ft, while the smaller pool is 91 ft by 51 ft. The depths of the two pools is 14 ft and 18 ft for the smaller pool and the larger pool respectively."]
+    }
+    
+
+
+
+  
+  ]
+}
